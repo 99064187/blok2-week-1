@@ -1,0 +1,27 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    height: 769px;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("stage.png"); 
+    
+}
+
+img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+}
+#button1{
+    border-radius: 8px;
+    background-color:#00FF00;
+}
+
+#button2{
+    border-radius: 8px;
+    background-color:#FF0000;
+}
